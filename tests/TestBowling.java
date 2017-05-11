@@ -10,7 +10,7 @@ public class TestBowling {
 		for (int i=0; i<11;i++)
 			new Frame(2,2);
 		
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 }

@@ -1,3 +1,4 @@
+import java.awt.Frame;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,10 +11,21 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	public BowlingGame(){}
+	public BowlingGame(){
+		
+		
+		
+	}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
+	
+	public void addFrame(Frame frame) throws BowlingException{
+		
+		if (frames.size() < 10)
+			frames.add(frame);
+		else 
+			throw new BowlingException();
+			
 		//to be implemented
 	}
 	
