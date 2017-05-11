@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time:20.52
+// Student ID: IT18-2015
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
@@ -42,10 +42,7 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		int finalscore = 0;
-		
-		for (Frame frame : frames) {
-			finalscore = finalscore + frame.score();
+	
 	
 		
 			
