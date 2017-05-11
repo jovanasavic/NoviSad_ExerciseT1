@@ -46,3 +46,7 @@ RefactoringAction 1494528960987 TestBowling.java RENAME test_=>void test_points 
 RefactoringAction 1494528964011 TestBowling.java RENAME test_points=>void test_points() METHOD
 EditAction 1494528970999 Frame.java 894 6 10 0
 EditAction 1494528971486 TestBowling.java 409 2 3 0
+CompilationAction 1494528971839 TestBowling.java
+CompilationAction 1494528971840 TestBowling.java
+CompilationAction 1494528971840 TestBowling.java
+EditAction 1494528971950 BowlingGame.java 1089 4 8 0

@@ -13,14 +13,15 @@ public class BowlingGame {
 	
 	public BowlingGame(){
 		
-		
+		this.bonus = bonus;
+		this.frames = frames;
 		
 	}
 	
 	// adds a frame to the game
 	
 	public void addFrame(Frame frame) throws BowlingException{
-		
+		frame = new Frame();
 		if (frames.size() < 10)
 			frames.add(frame);
 		else 
@@ -31,11 +32,23 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
+		int bonus=0;
+		
+		
+		
 		//to be implemented
+		
 	}
 	
 	// Returns the game score
 	public int score(){
+		int finalscore = 0;
+		
+		for (Frame frame : frames) {
+			finalscore = finalscore + frame.score();
+	
+		}
+			
 		//to be implemented: should return game score 
 		return 0;
 	}
