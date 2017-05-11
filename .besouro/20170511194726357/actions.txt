@@ -62,3 +62,6 @@ UnitTestCaseAction 1494529209153 TestBowling.java OK
 UnitTestSessionAction 1494529209153 TestBowling.java OK
 RefactoringAction 1494529265831 Frame.java ADD Frame() METHOD
 EditAction 1494529402379 BowlingGame.java 1088 4 7 0
+CompilationAction 1494529402883 BowlingGame.java
+CompilationAction 1494529402884 BowlingGame.java
+EditAction 1494529413605 Frame.java 921 7 10 0

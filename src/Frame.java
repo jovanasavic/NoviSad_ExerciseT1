@@ -2,6 +2,9 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	public Frame (){
+		
+	}
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
