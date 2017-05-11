@@ -6,3 +6,4 @@ RefactoringAction 1494525463617 BowlingGame.java ADD import java.awt.Frame IMPOR
 FileOpenedAction 1494525501153 BowlingException.java 58 0 0 0
 FileOpenedAction 1494525685813 TestBowling.java 165 1 1 0
 EditAction 1494526504380 Frame.java 798 6 7 0
+EditAction 1494526505021 TestBowling.java 279 1 2 0
