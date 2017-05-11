@@ -5,12 +5,21 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test(expected = BowlingException.class)
-	public void test() throws BowlingException {
+	public void exception_test() throws BowlingException {
 		
-		for (int i=0; i<11;i++)
-			new Frame(2,2);
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame1  = new Frame(4,4);
+		game.addFrame(frame1);
+		
 		
 		//fail("Not yet implemented");
 	}
+	
+	@Test
+	public void test_points() throws
+	
+	
+	
 
 }
