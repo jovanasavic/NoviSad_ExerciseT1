@@ -1,0 +1,8 @@
+FileOpenedAction 1494524846559 BowlingGame.java 708 4 1 0
+RefactoringAction 1494525357594 BowlingGame.java ADD List<Frame> frames/2 FIELD
+RefactoringAction 1494525368201 BowlingGame.java REMOVE frames/2 FIELD
+FileOpenedAction 1494525393654 Frame.java 671 6 7 0
+RefactoringAction 1494525463617 BowlingGame.java ADD import java.awt.Frame IMPORT
+FileOpenedAction 1494525501153 BowlingException.java 58 0 0 0
+FileOpenedAction 1494525685813 TestBowling.java 165 1 1 0
+EditAction 1494526504380 Frame.java 798 6 7 0
