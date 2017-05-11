@@ -17,8 +17,15 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
+
+		if ( firstThrow != 10 && (firstThrow + secondThrow) != 10)
+			return firstThrow + secondThrow;
+		if (isSpare())
+			return 0;
+		if (isStrike())
+			return 0;
+			
 		
-		//to be implemented
 		return 0;
 	}
 
@@ -27,10 +34,7 @@ public class Frame {
 		if (firstThrow == 10)
 			return true;
 		else
-			return false;
-		
-		//to be implemented
-		
+			return false;		
 	}
 	
 	//return whether a frame is a spare or not
@@ -39,6 +43,5 @@ public class Frame {
 			return true;
 		else
 		return false;
-		//to be implemented
 	}
 }
