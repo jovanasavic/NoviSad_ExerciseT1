@@ -47,7 +47,7 @@ public class BowlingGame {
 		for (Frame frame : frames) {
 			finalscore = finalscore + frame.score();
 	
-		}
+		
 			
 		//to be implemented: should return game score 
 		return 0;

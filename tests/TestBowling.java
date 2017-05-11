@@ -1,4 +1,5 @@
 import static org.junit.Assert.*;
+import java.awt.Frame;
 
 import org.junit.Test;
 
@@ -9,16 +10,22 @@ public class TestBowling {
 		
 		
 		BowlingGame game = new BowlingGame();
-		Frame frame1  = new Frame(4,4);
-		game.addFrame(frame1);
+		for (int i = 0 ; i<11; i++)
+			game.addFrame(new Frame());
 		
 		
 		//fail("Not yet implemented");
 	}
 	
-	@Test
-	public void test_points() throws
-	
+/*@Test
+	public void test_points() throws BowlingException {
+		
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame (4,4));
+		
+		
+	}
+	*/
 	
 	
 

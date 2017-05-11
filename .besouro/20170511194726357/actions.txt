@@ -50,3 +50,15 @@ CompilationAction 1494528971839 TestBowling.java
 CompilationAction 1494528971840 TestBowling.java
 CompilationAction 1494528971840 TestBowling.java
 EditAction 1494528971950 BowlingGame.java 1089 4 8 0
+CompilationAction 1494528972341 BowlingGame.java
+UnitTestCaseAction 1494528974667 TestBowling.java FAIL
+UnitTestSessionAction 1494528974669 TestBowling.java FAIL
+RefactoringAction 1494529101310 TestBowling.java ADD import java.awt.Frame IMPORT
+RefactoringAction 1494529203596 TestBowling.java REMOVE test_points() METHOD
+CompilationAction 1494529207934 TestBowling.java
+CompilationAction 1494529207934 TestBowling.java
+CompilationAction 1494529208000 BowlingGame.java
+UnitTestCaseAction 1494529209153 TestBowling.java OK
+UnitTestSessionAction 1494529209153 TestBowling.java OK
+RefactoringAction 1494529265831 Frame.java ADD Frame() METHOD
+EditAction 1494529402379 BowlingGame.java 1088 4 7 0
